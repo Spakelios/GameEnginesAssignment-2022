@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Lightening : MonoBehaviour
@@ -12,6 +13,7 @@ public class Lightening : MonoBehaviour
     public Light light;
     public AudioClip[] thunderSounds;
     public AudioSource audioSource;
+    
 
     void Start()
     {
@@ -24,6 +26,8 @@ public class Lightening : MonoBehaviour
         {
             yield return new WaitForSeconds(Random.Range(offMin, offMAX));
             light.enabled = true;
+            
+            
             
             StartCoroutine("SoundFX");
             yield return new WaitForSeconds(Random.Range(offMin, onMax));
