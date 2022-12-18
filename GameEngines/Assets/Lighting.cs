@@ -17,6 +17,7 @@ public class Lighting : MonoBehaviour
 
     public GameObject thunderbolt;
     public GameObject lightinging;
+    public GameObject manager;
     public Toggle thunderOn;
     public Toggle lighteningOn;
 
@@ -55,9 +56,11 @@ public class Lighting : MonoBehaviour
         if (lighteningOn.isOn)
         {
             lightinging.SetActive(true);
+            manager.SetActive(true);
         }
         else
         {
+            manager.SetActive(false);
             lightinging.SetActive(false);
         }
         
