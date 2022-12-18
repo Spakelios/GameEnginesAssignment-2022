@@ -25,15 +25,14 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _ALPHATEST_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _QueueOffset
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -51,13 +50,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0.69
+    - _AlphaClip: -0.84
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 1
     - _CloudAlpha: 1.6
     - _CloudScale: 123
-    - _CloudsPower: 2.51
+    - _CloudsPower: 0.8
     - _Cull: 2
     - _DistortScale: 60
     - _DstBlend: 0
@@ -72,6 +71,6 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _CloudSpeed: {r: 0.002, g: 0.005, b: 0, a: 0}
-    - _Color: {r: 0.2, g: 0.16078432, b: 0.16078432, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _DistortSpeed: {r: 0.005, g: 0.001, b: 0, a: 0}
   m_BuildTextureStacks: []
