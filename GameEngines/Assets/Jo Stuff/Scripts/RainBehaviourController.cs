@@ -72,7 +72,7 @@ public class RainBehaviourController : MonoBehaviour
         main.simulationSpeed = speedToggle.value;
         
         rainbowCheck();
-        gravityCheck();
+        GravityCheck();
         BounceCheck();
 
     }
@@ -104,8 +104,10 @@ public class RainBehaviourController : MonoBehaviour
         raindropColour.color = rainGradient;
     }
 
-    private void gravityCheck()
+    private void GravityCheck()
     {
+        if (bouncyToggle.isOn) return;
+        
         if (gravityToggle.isOn)
         {
             AntiGravity();
@@ -119,20 +121,20 @@ public class RainBehaviourController : MonoBehaviour
 
     private void RegularGravity()
     {
-        var main = rain.main;
-        main.gravityModifier = 0f;
+        rain.gravityModifier = 0f;
     }
 
     private void AntiGravity()
     {
-        var main = rain.main;
-        main.gravityModifier = -1f;
+        rain.gravityModifier = -1f;
     }
 
 
     private void BounceCheck()
     {
-        if (bouncyToggle.isOn)
+        if (gravityToggle.isOn) return;
+        
+        if (bouncyToggle.isOn &&!gravityToggle.isOn)
         {
             BouncyRain();
         }
@@ -148,6 +150,7 @@ public class RainBehaviourController : MonoBehaviour
         var main = rain.main;
         main.gravityModifier = 0;
         rainCollision.bounce = 0;
+        rainCollision.dampen = 1;
     }
 
     private void BouncyRain()
@@ -155,6 +158,7 @@ public class RainBehaviourController : MonoBehaviour
         var main = rain.main;
         main.gravityModifier = new ParticleSystem.MinMaxCurve(1, 10);
         rainCollision.bounce = 1;
+        rainCollision.dampen = 0;
     }
 
 }
