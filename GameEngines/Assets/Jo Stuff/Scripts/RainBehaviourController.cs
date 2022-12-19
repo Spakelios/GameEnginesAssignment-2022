@@ -66,9 +66,13 @@ public class RainBehaviourController : MonoBehaviour
 
     private void Update()
     {
+        var main = rain.main;
+        main.simulationSpeed = speedToggle.value;
+        
         rainbowCheck();
         gravityCheck();
-        
+        BounceCheck();
+
     }
 
     private void rainbowCheck()
@@ -119,6 +123,30 @@ public class RainBehaviourController : MonoBehaviour
     private void AntiGravity()
     {
         rain.gravityModifier = -1f;
+    }
+
+
+    private void BounceCheck()
+    {
+        if (bouncyToggle.isOn)
+        {
+            BouncyRain();
+        }
+
+        else
+        {
+            NonBouncyRain();
+        }
+    }
+
+    private void NonBouncyRain()
+    {
+        
+    }
+
+    private void BouncyRain()
+    {
+        
     }
 
 }
