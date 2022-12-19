@@ -11,6 +11,7 @@ public class RainBehaviourController : MonoBehaviour
     
     private ParticleSystem.ColorOverLifetimeModule rainColour;
     private ParticleSystem.ColorOverLifetimeModule raindropColour;
+    private ParticleSystem.CollisionModule rainCollision;
     
     private Gradient rainGradient;
     
@@ -29,6 +30,7 @@ public class RainBehaviourController : MonoBehaviour
         raindrops = rain.transform.GetChild(0).GetComponent<ParticleSystem>();
         rainColour = rain.colorOverLifetime;
         raindropColour = raindrops.colorOverLifetime;
+        rainCollision = rain.collision;
         rainGradient = new Gradient();
 
         graidentRainbow = new GradientColorKey[7];
@@ -117,12 +119,14 @@ public class RainBehaviourController : MonoBehaviour
 
     private void RegularGravity()
     {
-        rain.gravityModifier = 0f;
+        var main = rain.main;
+        main.gravityModifier = 0f;
     }
 
     private void AntiGravity()
     {
-        rain.gravityModifier = -1f;
+        var main = rain.main;
+        main.gravityModifier = -1f;
     }
 
 
@@ -141,12 +145,16 @@ public class RainBehaviourController : MonoBehaviour
 
     private void NonBouncyRain()
     {
-        
+        var main = rain.main;
+        main.gravityModifier = 0;
+        rainCollision.bounce = 0;
     }
 
     private void BouncyRain()
     {
-        
+        var main = rain.main;
+        main.gravityModifier = new ParticleSystem.MinMaxCurve(1, 10);
+        rainCollision.bounce = 1;
     }
 
 }
