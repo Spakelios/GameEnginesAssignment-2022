@@ -5,19 +5,15 @@ using UnityEngine;
 
 public class AudioSyncColour : MonoBehaviour
 {
-    private void Start()
-    {
-          GetComponent<ParticleSystem>();
-    }
+    public ParticleSystem Particle;
 
     void Update()
     {
-      
-        ParticleSystem.MinMaxGradient minMaxGradient;
-        minMaxGradient = new ParticleSystem.MinMaxGradient (Color.cyan, Color.blue);
-        minMaxGradient.mode = ParticleSystemGradientMode.RandomColor;
-        print("it works");
+        Color[] colors = { new Color(0,1,0,1), new Color(1,0,0,1), new Color(1,1,1,1), new Color(0,0,1,1),  new Color(1,1,0,1), new Color(0, 0, 0, 1)};
+        int lengthOfColors = colors.Length; 
         
-
+        
+        int rndColor = UnityEngine.Random.Range (0, lengthOfColors);
+        Particle.startColor = gameObject.GetComponent<Renderer>().material.color  = colors[rndColor];
     }
 }

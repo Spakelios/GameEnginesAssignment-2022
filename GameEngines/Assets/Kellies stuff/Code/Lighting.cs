@@ -5,13 +5,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Lighting : MonoBehaviour
 {
     public Material newMat;
     public Slider slider;
     public Toggle tog;
-  
+
     public Material sky;
     public Slider skyder;
 
@@ -20,7 +21,7 @@ public class Lighting : MonoBehaviour
     public GameObject manager;
     public Toggle thunderOn;
     public Toggle lighteningOn;
-
+    
     private void Start()
     {
         newMat = GetComponent<MeshRenderer>().sharedMaterial;
@@ -38,6 +39,7 @@ public class Lighting : MonoBehaviour
         {
             newMat.SetColor("_Color", Color.grey);
         }
+
 
         //Sky
         sky.SetFloat("_AtmosphereThickness", skyder.value);
