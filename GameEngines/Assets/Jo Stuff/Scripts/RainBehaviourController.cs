@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,8 +8,10 @@ public class RainBehaviourController : MonoBehaviour
 {
     public ParticleSystem rain;
     public ParticleSystem raindrops;
+    
     private ParticleSystem.ColorOverLifetimeModule rainColour;
     private ParticleSystem.ColorOverLifetimeModule raindropColour;
+    
     private Gradient rainGradient;
     
     private GradientColorKey[] graidentRainbow;
@@ -16,6 +19,9 @@ public class RainBehaviourController : MonoBehaviour
     private GradientAlphaKey[] graidentAlpha;
 
     public Slider rainbowToggle;
+    public Slider speedToggle;
+    public Toggle gravityToggle;
+    public Toggle bouncyToggle;
 
     private void Start()
     {
@@ -58,8 +64,14 @@ public class RainBehaviourController : MonoBehaviour
         graidentAlpha[3].time = 1f;
     }
 
-
     private void Update()
+    {
+        rainbowCheck();
+        gravityCheck();
+        
+    }
+
+    private void rainbowCheck()
     {
         if (rainbowToggle.value == 0)
         {
@@ -71,6 +83,7 @@ public class RainBehaviourController : MonoBehaviour
             RainbowRain();
         }
     }
+
     private void RegularRain()
     {
         rainGradient.SetKeys(graidentWhite, graidentAlpha);
@@ -83,6 +96,29 @@ public class RainBehaviourController : MonoBehaviour
         rainGradient.SetKeys(graidentRainbow, graidentAlpha);
         rainColour.color = rainGradient;
         raindropColour.color = rainGradient;
+    }
+
+    private void gravityCheck()
+    {
+        if (gravityToggle.isOn)
+        {
+            AntiGravity();
+        }
+
+        else
+        {
+            RegularGravity();
+        }
+    }
+
+    private void RegularGravity()
+    {
+        rain.gravityModifier = 0f;
+    }
+
+    private void AntiGravity()
+    {
+        rain.gravityModifier = -1f;
     }
 
 }
