@@ -7,7 +7,7 @@ using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-public class Lighting : MonoBehaviour
+public class MaterialEditor : MonoBehaviour
 {
     public Material newMat;
     public Slider slider;

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioSyncColour : MonoBehaviour
+public class BoltColourChange : MonoBehaviour
 {
     public ParticleSystem Particle;
 

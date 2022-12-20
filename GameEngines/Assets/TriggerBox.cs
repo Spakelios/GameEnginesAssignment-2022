@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class test : MonoBehaviour
+public class TriggerBox : MonoBehaviour
 {
     public GameObject menu, menu2, menu3;
 
