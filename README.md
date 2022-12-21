@@ -44,11 +44,12 @@ the player will spawn in front of a device with screens and buttons, they will b
 | vynylScript.cs | Self written |
 | AnimateHand.cs | Self written |
 | BoltColourChange.cs | Self written |
-| Lightening.cs | Self written |
+| Lightening.cs | Referencing https://www.youtube.com/watch?v=hCP5w5vTsDc&t=1094s |
 | MaterialEditor.cs | Self written |
 | PlayAnimation.cs | Self written |
 | TriggerBox.cs | Self written |
 | hand model | oculus starter kit |
+| FLickering Lights | https://www.dropbox.com/s/vf20awjj3nul1w0/FlickeringLight.cs?dl=0 |
 
 
 # References
