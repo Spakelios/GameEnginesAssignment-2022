@@ -1,11 +1,11 @@
 # GameEnginesAssignment-2022
 # Project Title
 
-Name:
+Names: Gabriele Lenzi, Kellie Meagher, Joelle Tierney
 
-Student Number: 
+Student Numbers: C20743749, C20454772, C20504119
 
-Class Group:
+Class Group: DT508 (TU984) Game Design
 
 Video:
 
