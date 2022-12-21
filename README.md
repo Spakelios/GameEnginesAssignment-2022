@@ -12,15 +12,14 @@ Video:
 
 # Description of the project
 
-A weather machine that has a variety of levers and buttons that allows you to manipulate & change the weather in the environment. There will be regular weather effects such as clouds & sunshine, along with more unique weather effects like rainbow rain & snow that falls upwards.
+insert new one here
 
 # Instructions for use
 
 the player will spawn in front of a device with screens and buttons, they will be able to interact with said items by pointing at the buttons which will make the screen activate and show different toggles and sliders, using the buttons on the controllers and the pointing lasers, the player wil be able to interact with the toggles and the sliders to change the effects
 
-# How it works (How we plan to implement it)
+# How it works 
 
-- Procedurally generated weather patterns
 - Particle System for visual effects
 - Shaders to change colours
 - Custom Models for the machine itself
