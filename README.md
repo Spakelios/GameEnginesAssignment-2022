@@ -1,5 +1,5 @@
 # GameEnginesAssignment-2022
-# Project Title
+# Weather Machine
 
 Names: Gabriele Lenzi, Kellie Meagher, Joelle Tierney
 
