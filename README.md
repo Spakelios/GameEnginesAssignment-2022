@@ -85,11 +85,13 @@ The player will spawn in front of a desk with monitors & buttons. They will be a
 
 * Gabriele: The overall use of the particle system made me realize its potential and how it can become a powerful tool if mixed with code and other tools that unity provides.
 * Joelle: I'm happy with how the music turned out; I believe that making one main melody with accompaniment and then changing the instruments to suit the weather effect worked really well.
+* Kellie: The implementation and manipulation of elements of the shader graph and skybox, the clouds turned out espcially well as it reacted to the lightning effect.
 
 # What we learned
 
 * Gabriele: How to better use the particle system and how implementing code to it increases its value and makes it more interesting both to create and witness.
 * Joelle: I got a better look into how shadergraphs worked using the hologram tutorial, and how useful they truly are when it comes to making materials for GameObjects.
+* Kellie: I got to better understand how to set up and implement VR in unity. As well as a more indept look at manipulating elements of shader graphs and materials through c#.
 
 # Proposal submitted earlier can go here:
 
