@@ -48,7 +48,7 @@ the player will spawn in front of a device with screens and buttons, they will b
 | MaterialEditor.cs | Self written |
 | PlayAnimation.cs | Self written |
 | TriggerBox.cs | Self written |
-
+| hand model | oculus starter kit |
 
 
 # References
