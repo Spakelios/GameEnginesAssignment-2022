@@ -16,6 +16,7 @@ A weather machine that has a variety of levers and buttons that allows you to ma
 
 # Instructions for use
 
+the player will spawn in front of a device with screens and buttons, they will be able to interact with said items by pointing at the buttons which will make the screen activate and show different toggles and sliders, using the buttons on the controllers and the pointing lasers, the player wil be able to interact with the toggles and the sliders to change the effects
 
 # How it works (How we plan to implement it)
 
@@ -32,7 +33,23 @@ A weather machine that has a variety of levers and buttons that allows you to ma
 
 | Class/asset | Source |
 |-----------|-----------|
-| MyClass.cs | Self written |
+| Middle point calculator.cs | Self written |
+| rotatewind.cs | Self written |
+| snowController.cs | Self written |
+| followind.cs | Self written |
+| buttonVR.cs | Self written |
+| snow.cs | Self written |
+| musicManager.cs | Self written |
+| RainBehaviour.cs | Self written |
+| vynylScript.cs | Self written |
+| AnimateHand.cs | Self written |
+| BoltColourChange.cs | Self written |
+| Lightening.cs | Self written |
+| MaterialEditor.cs | Self written |
+| PlayAnimation.cs | Self written |
+| TriggerBox.cs | Self written |
+
+
 
 # References
 * Item 1
@@ -40,7 +57,11 @@ A weather machine that has a variety of levers and buttons that allows you to ma
 
 # What I am most proud of in the assignment
 
+the overall use of the particle system made us realize its potential and how it can become a powerfull tool if mixed with code and other tools that unity provides. 
+
 # What I learned
+
+how to better use the particle system and how implementing code to iit increase its value and makes it more interesting both to create with and to witness.
 
 # Proposal submitted earlier can go here:
 
