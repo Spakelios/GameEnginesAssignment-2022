@@ -45,13 +45,13 @@ public class MusicManager : MonoBehaviour
                 MusicPlayer.clip = thunder.clip;
         }
         
-        /*
-        else if (snowToggle.isOn)
-        {
-            MusicPlayer.clip = snow.clip;
-            MusicPlayer.Play(); 
-        }
-        */
+        
+        // else if (snowToggle.isOn)
+        // {
+        //     MusicPlayer.clip = snow.clip;
+        //     MusicPlayer.Play(); 
+        // }
+        
 
         else
         {
