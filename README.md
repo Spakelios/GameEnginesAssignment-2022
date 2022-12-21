@@ -12,11 +12,11 @@ Video:
 
 # Description of the project
 
-insert new one here
+A machine with screens and buttons which will let you control a weather system, with three distinct effects each customizable to the user needs and custom music depending on the selected weather effect. The player will also be able to use special features depending on the effect chosen such as bouncing rain or colorfull snow.
 
 # Instructions for use
 
-the player will spawn in front of a device with screens and buttons, they will be able to interact with said items by pointing at the buttons which will make the screen activate and show different toggles and sliders, using the buttons on the controllers and the pointing lasers, the player wil be able to interact with the toggles and the sliders to change the effects
+the player will spawn in front of a device with screens and buttons, they will be able to interact with said items by pointing at the buttons which will make the screen activate and show different toggles and sliders, using the buttons on the controllers and the pointing lasers, the player wil be able to interact with the toggles and the sliders to change the effects and toggle special features.
 
 # How it works 
 
