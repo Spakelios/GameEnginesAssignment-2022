@@ -49,7 +49,7 @@ the player will spawn in front of a device with screens and buttons, they will b
 | PlayAnimation.cs | Self written |
 | TriggerBox.cs | Self written |
 | hand model | oculus starter kit |
-| FLickering Lights | https://www.dropbox.com/s/vf20awjj3nul1w0/FlickeringLight.cs?dl=0 |
+| Flickering Lights | Referencing https://www.dropbox.com/s/vf20awjj3nul1w0/FlickeringLight.cs?dl=0 |
 
 
 # References
