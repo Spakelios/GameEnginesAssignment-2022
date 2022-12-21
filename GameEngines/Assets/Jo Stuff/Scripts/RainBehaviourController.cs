@@ -23,11 +23,14 @@ public class RainBehaviourController : MonoBehaviour
     public Slider speedToggle;
     public Toggle gravityToggle;
     public Toggle bouncyToggle;
+    public Toggle rainToggle;
 
     private void Start()
     {
         rain = GameObject.FindWithTag("Rain").GetComponent<ParticleSystem>();
         raindrops = rain.transform.GetChild(0).GetComponent<ParticleSystem>();
+        rain.Stop();
+        rainToggle.isOn = false;
         rainColour = rain.colorOverLifetime;
         raindropColour = raindrops.colorOverLifetime;
         rainCollision = rain.collision;
@@ -68,12 +71,25 @@ public class RainBehaviourController : MonoBehaviour
 
     private void Update()
     {
-        var main = rain.main;
-        main.simulationSpeed = speedToggle.value;
+        if (rainToggle.isOn)
+        {
+            if (!rain.isPlaying)
+            {
+                rain.Play();
+            }
+            
+            var main = rain.main;
+            main.simulationSpeed = speedToggle.value;
         
-        rainbowCheck();
-        GravityCheck();
-        BounceCheck();
+            rainbowCheck();
+            GravityCheck();
+            BounceCheck();
+        }
+
+        else
+        {
+            rain.Stop();
+        }
 
     }
 
