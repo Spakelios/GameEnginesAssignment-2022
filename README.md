@@ -39,17 +39,26 @@ the player will spawn in front of a device with screens and buttons, they will b
 | followind.cs | Self written |
 | buttonVR.cs | Self written |
 | snow.cs | Self written |
-| musicManager.cs | Self written |
-| RainBehaviour.cs | Self written |
-| vynylScript.cs | Self written |
+| MusicManager.cs | Self written |
+| RainBehaviourController.cs | Modified from [reference](https://docs.unity3d.com/ScriptReference/Gradient.html)|
+| VinylHologram.cs |From [reference](https://github.com/skooter500/GE1-2022-2023/blob/master/GE1%20Examples%202022/Assets/AudioViz3.cs)|
 | AnimateHand.cs | Self written |
 | BoltColourChange.cs | Self written |
-| Lightening.cs | Referencing https://www.youtube.com/watch?v=hCP5w5vTsDc&t=1094s |
+| Lightening.cs | From [reference](https://www.youtube.com/watch?v=hCP5w5vTsDc&t=1094s)|
 | MaterialEditor.cs | Self written |
 | PlayAnimation.cs | Self written |
 | TriggerBox.cs | Self written |
-| hand model | oculus starter kit |
-| Flickering Lights | Referencing https://www.dropbox.com/s/vf20awjj3nul1w0/FlickeringLight.cs?dl=0 |
+| Hand Model | oculus starter kit |
+| FlickeringLights.cs | From [reference](https://www.dropbox.com/s/vf20awjj3nul1w0/FlickeringLight.cs?dl=0)|
+| Rainy Vibes.wav| Self made |
+| Cloudy Vibes.wav| Self made |
+| Thundering Vibes.wav| Self made |
+| Snow Vibes.wav| Self made |
+| VinylHologram.prefab| Self made using ProBuilder |
+| Weather Machine.prefab| Self made using Probuilder |
+| Hologram.shadergraph| From [reference](https://www.youtube.com/watch?v=KGGB5LFEejg)|
+
+
 
 
 # References
