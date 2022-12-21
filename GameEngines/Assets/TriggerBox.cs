@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TriggerBox : MonoBehaviour
 {
-    public GameObject menu, menu2, menu3;
+    public GameObject menu, menu2, menu3, rain;
 
     public void Menu1()
     {
@@ -18,6 +18,7 @@ public class TriggerBox : MonoBehaviour
         menu.SetActive(false);
         menu2.SetActive(true);
         menu3.SetActive(false);
+        
     }
 
     public void Menu3()
@@ -25,6 +26,7 @@ public class TriggerBox : MonoBehaviour
         menu.SetActive(false);
         menu2.SetActive(false);
         menu3.SetActive(true);
+        
     }
     
 
