@@ -63,8 +63,12 @@ the player will spawn in front of a device with screens and buttons, they will b
 
 
 # References
-* Item 1
-* Item 2
+* [Gradient](https://docs.unity3d.com/ScriptReference/Gradient.html)
+* [Audio Analyser](https://github.com/skooter500/GE1-2022-2023/blob/master/GE1%20Examples%202022/Assets/AudioViz3.cs)
+* [Lightning Timer](https://www.youtube.com/watch?v=hCP5w5vTsDc&t=1094s)
+* [Flickering Lights](https://www.dropbox.com/s/vf20awjj3nul1w0/FlickeringLight.cs?dl=0)
+* [Hologram Shadergraph](https://www.youtube.com/watch?v=KGGB5LFEejg)
+* [Cloud Shadergraph](https://www.youtube.com/watch?v=xxhvUyvIH6s&t=912s)
 
 # What I am most proud of in the assignment
 
