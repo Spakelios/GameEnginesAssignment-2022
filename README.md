@@ -52,17 +52,17 @@ The player will spawn in front of a desk with monitors & buttons. They will be a
 | TriggerBox.cs | Self written |
 | Hand Model | From [reference](https://drive.google.com/file/d/10b39IekUdpBHlcTslZ-BlNRyH5uqPUe1/view)|
 | FlickeringLights.cs | From [reference](https://www.dropbox.com/s/vf20awjj3nul1w0/FlickeringLight.cs?dl=0)|
-| Rainy Vibes.wav| Self made using BeepBox |
-| Cloudy Vibes.wav| Self made using BeepBox |
-| Thundering Vibes.wav| Self made using BeepBox|
-| Snow Vibes.wav| Self made using BeepBox |
+| Rainy Vibes.wav| Self made using [BeepBox website](https://tinyurl.com/2pmuduqs) |
+| Cloudy Vibes.wav| Self made using [BeepBox website](https://tinyurl.com/2pmuduqs) |
+| Thundering Vibes.wav| Self made using [BeepBox website](https://tinyurl.com/2pmuduqs)|
+| Snow Vibes.wav| Self made using [BeepBox website](https://tinyurl.com/2pmuduqs) |
 | VinylHologram.prefab| Self made using ProBuilder |
 | Weather Machine.prefab| Self made using Probuilder |
 | Hologram.shadergraph| From [reference](https://www.youtube.com/watch?v=KGGB5LFEejg)|
 | Cloud.shadergraph| From [reference](https://www.youtube.com/watch?v=xxhvUyvIH6s&t=912s) |
 |ButtonPress1.anim| Self made using Unity Animator |
 |Rain_Collision.png| Self made in Photoshop|
-|HologramLines_Cool.psd| From [reference]([https://www.youtube.com/watch?v=KGGB5LFEejg](https://github.com/Brackeys/Shader-Graph-Tutorials/blob/master/Shader%20Graph/Assets/Textures/HologramLines_Cool.psd))|
+|HologramLines_Cool.psd| From [reference](https://github.com/Brackeys/Shader-Graph-Tutorials/blob/master/Shader%20Graph/Assets/Textures/HologramLines_Cool.psd)|
 |Rain Particles| Self made using Unity Particle System|
 |Snow Particles| Self made using Unity Particle System|
 |Lightning Bolt Particles| Self made using Unity Particle System|
@@ -91,7 +91,7 @@ The player will spawn in front of a desk with monitors & buttons. They will be a
 
 * Gabriele: How to better use the particle system and how implementing code to it increases its value and makes it more interesting both to create and witness.
 * Joelle: I got a better look into how shadergraphs worked using the hologram tutorial, and how useful they truly are when it comes to making materials for GameObjects.
-* Kellie: I got to better understand how to set up and implement VR in unity. As well as a more indept look at manipulating elements of shader graphs and materials through c#.
+* Kellie: I got to better understand how to set up and implement VR in unity. As well as a more in depth look at manipulating elements of shader graphs and materials through c#.
 
 # Proposal submitted earlier can go here:
 
