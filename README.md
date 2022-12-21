@@ -57,6 +57,7 @@ the player will spawn in front of a device with screens and buttons, they will b
 | VinylHologram.prefab| Self made using ProBuilder |
 | Weather Machine.prefab| Self made using Probuilder |
 | Hologram.shadergraph| From [reference](https://www.youtube.com/watch?v=KGGB5LFEejg)|
+| Cloud.shadergraph| from [reference] (https://www.youtube.com/watch?v=xxhvUyvIH6s&t=912s) |
 
 
 
