@@ -9,6 +9,8 @@ Class Group: DT508 (TU984) Game Design
 
 Video:
 
+[![YouTube](https://media.discordapp.net/attachments/1027932423108956230/1055242132820082779/image.png?width=971&height=701)](https://youtu.be/oc226q2gxTA)
+
 
 # Description of the project
 
@@ -79,13 +81,15 @@ The player will spawn in front of a desk with monitors & buttons. They will be a
 * [Cloud Shadergraph](https://www.youtube.com/watch?v=xxhvUyvIH6s&t=912s)
 * [Oculus Hands](https://drive.google.com/file/d/10b39IekUdpBHlcTslZ-BlNRyH5uqPUe1/view)
 
-# What I am most proud of in the assignment
+# What we are most proud of in the assignment
 
-the overall use of the particle system made us realize its potential and how it can become a powerfull tool if mixed with code and other tools that unity provides. 
+* Gabriele: The overall use of the particle system made me realize its potential and how it can become a powerful tool if mixed with code and other tools that unity provides.
+* Joelle: I'm happy with how the music turned out; I believe that making one main melody with accompaniment and then changing the instruments to suit the weather effect worked really well.
 
-# What I learned
+# What we learned
 
-how to better use the particle system and how implementing code to iit increase its value and makes it more interesting both to create with and to witness.
+* Gabriele: How to better use the particle system and how implementing code to it increases its value and makes it more interesting both to create and witness.
+* Joelle: I got a better look into how shadergraphs worked using the hologram tutorial, and how useful they truly are when it comes to making materials for GameObjects.
 
 # Proposal submitted earlier can go here:
 
@@ -101,69 +105,3 @@ A weather machine that has a variety of levers and buttons that allows you to ma
 - Custom Models for the machine itself
 - XR Controls for player control and interaction
 - Unity Animator to animate the machine
-
-## This is how to markdown text:
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-
-This is an image using an absolute URL:
-
-
-This is a youtube video:
-
-
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
